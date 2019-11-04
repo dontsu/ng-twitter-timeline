@@ -8,7 +8,7 @@ Contributors: Diana Raileanu http://dontsu.github.io
 
 ## Installation
 
-`npm install @ng/twitter-timeline`
+`npm install ng-twitter-timeline`
 
 
 ## Usage
@@ -16,17 +16,17 @@ Contributors: Diana Raileanu http://dontsu.github.io
 Import in `app.module.ts`
 
 ```javascript
-import { TwitterTimelineModule } from 'ng-twitter-timeline';
+import { NgTwitterTimelineModule } from 'ng-twitter-timeline';
 
 imports: [
-  TwitterTimelineModule
+  NgTwitterTimelineModule
 ],
 ```
 
 And then use this component in your template:
 
 ```javascript
-<twitter-timeline [dataSrc]="{sourceType: 'profile',screenName: 'lokers_one'}" [opts]="{tweetLimit: 2}"></twitter-timeline>
+<ng-twitter-timeline [dataSrc]="{sourceType: 'profile',screenName: 'lokers_one'}" [opts]="{tweetLimit: 2}"></ng-twitter-timeline>
 ```
 
 The `dataSrc` is the Twitter `data source` object
