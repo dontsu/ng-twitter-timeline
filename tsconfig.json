@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-twitter-timeline": [
+        "dist/ng-twitter-timeline"
+      ],
+      "ng-twitter-timeline/*": [
+        "dist/ng-twitter-timeline/*"
+      ]
+    }
   }
 }

@@ -1,45 +1,6 @@
-# twitter-timeline
-An angular library to display twitter timeline for Angular7 projects
-
-Current Version: 0.0.1
-Latest Update: 4th of Nov 2019
-Contributors: Diana Raileanu http://dontsu.github.io
-
-
-## Installation
-
-`npm install @ng/twitter-timeline`
-
-
-## Usage
-
-Import in `app.module.ts`
-
-```javascript
-import { TwitterTimelineModule } from 'ng-twitter-timeline';
-
-imports: [
-  TwitterTimelineModule
-],
-```
-
-And then use this component in your template:
-
-```javascript
-<twitter-timeline [dataSrc]="{sourceType: 'profile',screenName: 'lokers_one'}" [opts]="{tweetLimit: 2}"></twitter-timeline>
-```
-
-The `dataSrc` is the Twitter `data source` object
-The `opts` is the Twitter `options` object
-
-Full documentation on twitter timeline widget can be found on https://dev.twitter.com/web/javascript/creating-widgets#create-timeline
-
-
-## Licence
-
 MIT License
 
-Copyright (c) 2019 Diana Raileanu, http://dontsu.github.io
+Copyright (c) 2019 Diana Raileanu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

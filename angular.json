@@ -129,6 +129,41 @@
           }
         }
       }
+    },
+    "NgTwitterTimeline": {
+      "root": "projects/ng-twitter-timeline",
+      "sourceRoot": "projects/ng-twitter-timeline/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ng-twitter-timeline/tsconfig.lib.json",
+            "project": "projects/ng-twitter-timeline/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-twitter-timeline/src/test.ts",
+            "tsConfig": "projects/ng-twitter-timeline/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-twitter-timeline/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ng-twitter-timeline/tsconfig.lib.json",
+              "projects/ng-twitter-timeline/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "ng-twitter-timeline"
