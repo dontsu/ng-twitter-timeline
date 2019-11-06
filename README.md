@@ -1,8 +1,8 @@
 # twitter-timeline
-An angular library to display twitter timeline for Angular7 projects
+An angular library to display twitter timeline for Angular7 projects, an alternative to ng4-twitter-timeline that is not working on angular7 -prod build
 
 Current Version: 0.0.1
-Latest Update: 4th of Nov 2019
+Latest Update: 6th of Nov 2019
 Contributors: Diana Raileanu http://dontsu.github.io
 
 
