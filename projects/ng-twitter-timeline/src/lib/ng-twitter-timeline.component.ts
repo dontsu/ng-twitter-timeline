@@ -17,7 +17,7 @@ export class NgTwitterTimelineComponent implements AfterViewInit {
       let nativeElement = this.element.nativeElement;
 
       window['twttr'].widgets.createTimeline(this.dataSrc, nativeElement, this.opts).then(function success(embed) {
-        console.log('Created tweet widget: ', embed);
+//         console.log('Created tweet widget: ', embed);
       }).catch(function creationError(message) {
           console.log('Could not create widget: ', message);
         }
