@@ -23,6 +23,10 @@
       ],
       "ng-twitter-timeline/*": [
         "dist/ng-twitter-timeline/*"
+      ],
+      "ng-twitter-timeline2": [
+        "dist/ng-twitter-timeline2/ng-twitter-timeline2",
+        "dist/ng-twitter-timeline2"
       ]
     }
   }

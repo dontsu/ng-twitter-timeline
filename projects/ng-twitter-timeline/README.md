@@ -1,7 +1,7 @@
 # twitter-timeline
 An angular library to display twitter timeline for Angular  projects
 
-  Current Version: 0.0.9
+  Current Version: 1.0.0
   
   Latest Update: 20th of Dec 2021
   

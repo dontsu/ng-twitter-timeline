@@ -1,21 +1,11 @@
 {
   "name": "ng-twitter-timeline",
-  "version": "0.0.9",
-  "description": "A simple twitter widget that works on latest angular version in prod and non-prod configuration",
-  "author": "Diana Raileanu",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dontsu/ng-twitter-timeline.git"
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^13.1.0",
+    "@angular/core": "^13.1.0"
   },
-  "bugs": {
-    "url": "https://github.com/dontsu/ng-twitter-timeline/issues"
-  },
-  "homepage": "https://github.com/dontsu/ng-twitter-timeline",
-  "keywords": [
-    "angular",
-    "twitter",
-    "twitter-timeline",
-    "twitter-feeds"
-  ],
-  "license": "MIT"
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
 }
