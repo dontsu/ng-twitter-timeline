@@ -1,6 +1,6 @@
 {
   "name": "ng-twitter-timeline",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A simple twitter widget that works on latest angular version in prod and non-prod configuration",
   "author": "Diana Raileanu",
   "repository": {
